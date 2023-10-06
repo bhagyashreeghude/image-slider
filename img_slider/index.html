@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <!--connecting to style sheet(css) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--main container (body) or website-->
+    <div class="slide-container">
+        
+        <!--image 1 with caption-->
+        <div class="slide">
+            <img src="image_1.jpg"  class="centre">
+            <div class="caption">caption text 1</div>
+        </div>
+
+         <!--image 2 with caption-->
+        <div class="slide">
+            <img src="image_2.jpg" class="centre" >
+            <div class="caption">caption text 2</div>
+        </div>
+
+         <!--image 3 with caption-->
+        <div class="slide">
+            <img src="image_3.jpg" class="centre">
+            <div class="caption">caption text 3</div>
+        </div>
+
+         <!--image 4 with caption-->
+        <div class="slide">
+            <img src="image_4.jpg" class="centre">
+            <div class="caption">caption text 4</div>
+        </div>
+         
+        <!--buttons for preview and next-->
+        <span class="arrow prev" onclick="controller(-1)">&#10094</span>
+        <span class="arrow next" onclick="controller(1)">&#10095</span>
+   
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
